@@ -13,3 +13,6 @@ guest:guest memiliki format **pengguna**:**password**
 
 `localhost:5672` memproyeksikan host dan port yang akan dijalankan pada computer local. 5672 merupakan angka portnya.
 
+![alt text](image.png)
+
+Cargo run 4 kali mengakibatkan total queue yang terlihat pada tabel. Queue akan meningkat seiring dengan jumlah event yang didelay oleh subscriber sehingga mengakibatkan penumpukan
