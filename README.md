@@ -16,3 +16,9 @@ guest:guest memiliki format **pengguna**:**password**
 ![alt text](image.png)
 
 Cargo run 4 kali mengakibatkan total queue yang terlihat pada tabel. Queue akan meningkat seiring dengan jumlah event yang didelay oleh subscriber sehingga mengakibatkan penumpukan
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+Penggunaan tiga konsol secara bersamaan membuat pembagian kerja terbagi rata sehingga meningkatkan efisiensi serta kinerja program. Melalui hal tersebut, spike queue pun akan ikut berkurang
